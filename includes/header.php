@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php echo isset($page_title) ? $page_title : 'Dental Clinic'; ?></title>
+        <title><?php echo isset($page_title) ? $page_title : 'Dental Clinic'; ?></title>
+        <link rel="stylesheet" href="../assets/style.css">
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
         nav { background: #f4f4f4; padding: 10px; margin-bottom: 20px; border-bottom: 2px solid #ddd; }
@@ -20,5 +21,5 @@
             <a href="search.php">Search Appointments</a>
         <?php endif; ?>
         
-        <a href="logout.php">Logout</a>
+        <a href="../public/logout.php">Logout</a>
     </nav>

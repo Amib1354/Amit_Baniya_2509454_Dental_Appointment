@@ -26,6 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 ?>
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="../assets/style.css">
 <body>
     <h2>Edit Appointment</h2>
     <form method="POST">

@@ -20,6 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!DOCTYPE html>
 <html>
 <head><title>Dental Clinic - Register</title></head>
+<link rel="stylesheet" href="../assets/style.css">
 <body>
     <h2>Patient Registration</h2>
     <?php if(isset($error)) echo "<p style='color:red'>$error</p>"; ?>
@@ -29,6 +30,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <label>Password:</label><br><input type="password" name="password" required><br><br>
         <button type="submit">Register Account</button>
     </form>
-    <p>Already have an account? <a href="login.php">Login here</a></p>
+    <p class="center-text">Already have an account? <a href="login.php">Login here</a></p>
 </body>
 </html>

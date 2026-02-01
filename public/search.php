@@ -20,6 +20,7 @@ if (!isset($_SESSION['user_id'])) { header("Location: login.php"); exit(); }
         }
     </script>
 </head>
+<link rel="stylesheet" href="../assets/style.css">
 <body>
     <h2>Search Your Appointments</h2>
     <p>Type below to search by service type (e.g., "Cleaning") in real time.</p>

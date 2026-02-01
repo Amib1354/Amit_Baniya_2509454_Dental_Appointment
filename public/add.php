@@ -30,6 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!DOCTYPE html>
 <html>
 <head><title>Schedule Appointment</title></head>
+<link rel="stylesheet" href="../assets/style.css">
 <body>
     <h2>Schedule New Appointment</h2>
     <?php if(isset($error)) echo "<p style='color:red'>$error</p>"; ?>
@@ -47,6 +48,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </select><br><br>
         <button type="submit">Confirm Appointment</button>
     </form>
-    <a href="index.php">Back to Dashboard</a>
+    <p class="center-text"><a href="index.php">Back to Dashboard</a></p>
 </body>
 </html>

@@ -12,6 +12,7 @@ if (isset($_SESSION['user_id'])) {
 <!DOCTYPE html>
 <html>
 <head><title>Dental Clinic - Login</title></head>
+<link rel="stylesheet" href="../assets/style.css">
 <body>
     <h2>Login</h2>
     <?php if(isset($_GET['error'])) echo "<p style='color:red'>Invalid email or password.</p>"; ?>
@@ -20,6 +21,6 @@ if (isset($_SESSION['user_id'])) {
         <label>Password:</label><br><input type="password" name="password" required><br><br>
         <button type="submit">Login</button>
     </form>
-    <p>New patient? <a href="register.php">Register here</a></p>
+    <p class="center-text">New patient? <a href="register.php">Register here</a></p>
 </body>
 </html>
